@@ -1,0 +1,84 @@
+@media (max-width: 769px)   {
+    .conteudoPrincipal__container, .form__conteudo   {
+        margin-top: 25px;
+    }
+
+    .container__banner  {
+      display: none;  
+    }
+
+    .container__form    {
+        align-items: center;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+    }
+
+    .rodape {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 426px)   {
+    .conteudoPrincipal__container   {
+        align-items: center;
+    }
+
+    .conteudoPrincipal__container, .form__conteudo   {
+        margin-top: 0;
+
+        width: 100%;
+    }
+
+    .container__form, .form__conteudo, .form__cadastro, .form__apps    {
+        width: 100%;
+    }
+
+    .form__conteudo .conteudo__logo    {
+        background: #FAFAFA;
+
+        margin-top: 45px;
+    }
+
+    .form__conteudo, .form__cadastro    {
+        background-color: #FAFAFA;
+
+        border: none;
+    }
+
+    .container__banner  {
+      display: none;  
+    }
+
+    /* .container__form    {
+        align-items: center;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+    } */
+
+    .conteudo__separador span   {
+        background: #FAFAFA;
+    }
+
+    .rodape {
+        width: 100%;
+    }
+
+    .rodape__links li  {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 351px)   {
+    .conteudo__loginForm input, .conteudo__separador .separador__bordaHorizontal  {
+        width: 75%;
+    }
+}
