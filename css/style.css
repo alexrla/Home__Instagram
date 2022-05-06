@@ -1,0 +1,273 @@
+/* Base */
+
+*   {
+    box-sizing: border-box;
+}
+
+body    {
+    background: #FAFAFA;
+
+    font-family: Helvetica;
+}
+
+/* Main */
+
+.conteudoPrincipal__container   {
+    display: flex;
+
+    flex-direction: row;
+
+    margin-top: 30px;
+}
+
+.container__banner, .container__form  {
+  flex: 1 1 0;
+  
+  width: 50%;
+}
+
+.container__banner  {
+    text-align: right;
+}
+
+.container__banner img  {
+  margin-right: -15px;  
+}
+
+.container__form    {
+   text-align: center; 
+}
+
+/*  Main - Formulário de login - */
+
+.form__conteudo, .form__cadastro   {
+  background-color: #FFFFFF;
+  
+  border: 1px solid #DBDBDB;
+
+  margin-top: 30px;
+
+  width: 350px;
+}
+
+.form__conteudo .conteudo__logo {
+    background: #FFFFFF;
+
+    height: 51px;
+
+    margin: 30px auto 12px;
+
+    width: 175px;
+}
+
+.conteudo__loginForm    {
+  margin-top: 20px;  
+}
+
+.conteudo__loginForm input  {
+    background-color: #FAFAFA;
+
+    border: 1px solid #DBDBDB;
+
+    border-radius: 3px;
+
+    display: block;
+
+    font-size: 12px;
+
+    margin: 5px auto;
+
+    padding: 12px 9px;
+
+    width: 268px;
+}
+
+.conteudo__loginForm input[type="submit"]   {
+    background-color: #B2DFFC;
+
+    border-color: #B2DFFC;
+
+    border-radius: 5px;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    height: 30px;
+
+    margin-top: 15px;
+    
+    padding: 0;
+}
+
+/*  Main - Separador - */
+
+.conteudo__separador    {
+    position: relative;
+}
+
+.conteudo__separador .separador__bordaHorizontal    {
+    border-top: 1px solid #DBDBDB;
+
+    margin: 25px auto 35px;
+
+    width: 268px;
+}
+
+.conteudo__separador span   {
+    background: #FFFFFF;
+
+    color: #BBBBBB;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    left: 50%;
+
+    margin-left: -25px;
+
+    position: absolute;
+
+    text-transform: uppercase;
+
+    top: -6px;
+
+    width: 50px;
+}
+
+/*  Main - Facebook - */
+
+.redesSociais__facebook {
+    margin-bottom: 25px;
+}
+
+.redesSociais__facebook a   {
+    align-items: center;
+
+    color: #385185;
+
+    display: flex;
+
+    justify-content: center;
+
+    text-decoration: none;
+}
+
+.redesSociais__facebook a img   {
+    height: 16px;
+
+    margin-right: 8px;
+
+    width: 16px;
+}
+
+.redesSociais__facebook a span {
+    font-size: 13px;
+
+    font-weight: bold;
+
+    margin-top: 1px;
+}
+
+/*  Main - Esqueceu a senha - */
+
+.redesSociais__esqueceuSenha    {
+    font-size: 12px;
+
+    margin-bottom: 20px; 
+}
+
+.redesSociais__esqueceuSenha a    {
+    color: #373799;
+
+    text-decoration: none;
+}
+
+/*  Main - Cadastro - */
+
+.form__cadastro {
+    margin-top: 10px;
+
+    padding: 25px;
+}
+
+.form__cadastro p {
+    color: #262626;
+
+    font-size: 14px;
+}
+
+.form__cadastro a   {
+    color: #4A95F6;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+/*  Main - Apps - */
+
+.form__apps {
+    text-align: center;
+
+    width: 350px;
+}
+
+.form__apps p   {
+    font-size: 13px;
+
+    margin: 20px 0;
+}
+
+.form__apps a   {
+    text-decoration: none;
+}
+
+.form__apps a img   {
+    height: 40px;
+
+    width: 136px;
+}
+
+/* Rodapé */
+
+.rodape {
+    text-align: left;
+
+    margin: 50px auto;
+
+    width: 1000px;
+}
+
+.rodape__links  {
+    text-align: center;
+}
+
+.rodape__links li  {
+    display: inline-block;
+
+    margin-right: 10px;
+}
+
+.rodape__links li a, .rodape__copyright  {
+    color: #8E8E9C;
+
+    font-size: 12px;
+
+    font-weight: 400;
+}
+
+.rodape__links li a {
+    text-decoration: none;
+}
+
+.rodape__copyright  {
+    margin-top: 10px;
+
+    text-align: center;
+}
